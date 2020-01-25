@@ -1,7 +1,10 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "materialize-css/dist/css/materialize.min.css";
+import "materialize-css/dist/js/materialize.min.js";
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './assets/css/App.css';
+import App from './components/App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<App />, document.getElementById('root'));
